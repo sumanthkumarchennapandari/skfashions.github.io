@@ -1,0 +1,212 @@
+.header
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 5.5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 620;
+    font-style: normal;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    backdrop-filter: blur(4px);
+    color: rgb(255, 255, 255);
+    z-index: 999;
+}
+
+.heading_font
+{
+    margin: 0%; 
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.tagline
+{
+    font-size: 0.8rem;
+    margin-top: -9px;
+    padding-top: 1px;
+}
+
+.summercollections
+{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: max-content;
+    margin: auto;
+    margin-top: 6rem;
+    width: 25rem;
+    padding: 1px;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}  
+
+#dix2
+{
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.summer-text
+{
+    margin: 7px;
+}
+
+.container1
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 67rem;
+    margin: auto;
+    margin-top: 0.55rem;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 67rem;
+    margin: auto;
+    margin-top: 0.55rem;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    max-width: fit-content;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    height: 27rem;
+}
+
+.pro2
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    max-width: fit-content;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    height: 14rem;
+}
+
+#img001
+{
+    margin: auto;
+    max-height: 17rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    transition: ease-in-out,0.5s;
+}
+
+#img001:hover
+{
+    transform: scale(1.5);
+    transform-style: preserve-3d;
+}
+
+#img002
+{
+    margin: auto;
+    max-height: 17rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    transition: ease-in-out,0.5s;
+}
+
+#img002:hover
+{
+    transform: scale(1.5);
+    transform-style: preserve-3d;
+}
+
+.Text
+{
+    font-family: "Quicksand", sans-serif;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+.button
+{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    margin: 4px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    background-color:rgba(161, 161, 161, 0.849);
+    transition: ease,0.5s;
+    border: none;
+}
+
+.button:hover
+{
+    background-color: aquamarine;
+}
+body
+{
+    background-image: url("https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer
+{
+    font-family: "Quicksand", sans-serif;
+    padding: 20px;
+    width: 69%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    color: white;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.footerdiv1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerdiv
+{
+    padding: 0px 5px 0px;
+}
+#mana
+{
+    text-align: center;
+}
